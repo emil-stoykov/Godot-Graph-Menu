@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://bntb6k5gkgqq"]
+
+[node name="GraphTest" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Control0" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control0"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_font_sizes/font_size = 50
+text = "Control node #0 (start)"
+
+[node name="Control1" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control1"]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_font_sizes/font_size = 50
+text = "Control node #1.0"
+
+[node name="Control11" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control11"]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_font_sizes/font_size = 50
+text = "Control node #1.1"
+
+[node name="Control2" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control2"]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_font_sizes/font_size = 50
+text = "Control node #2.0"
+
+[node name="Control21" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control21"]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_font_sizes/font_size = 50
+text = "Control node #2.1"
+
+[node name="Control5" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control5"]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_font_sizes/font_size = 50
+text = "Control node #3 "
